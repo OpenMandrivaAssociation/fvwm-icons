@@ -12,6 +12,7 @@ License:	GPL
 Group:		Graphical desktop/FVWM based
 Requires:	fvwm
 BuildArch:  noarch
+BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
 The icons that used to be part of the fvwm source distribution are now
