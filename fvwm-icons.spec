@@ -1,18 +1,19 @@
 %define	name	fvwm-icons
 %define	version	1.0
-%define	release	%mkrel 6
+%define	release	%mkrel 7
 
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Summary:	FVWM icons
 URL: 		http://www.fvwm.org/
-Source:     http://www.fvwm.org/generated/icon_download/fvwm_icons.tar.bz2
+Source:		http://www.fvwm.org/generated/icon_download/fvwm_icons.tar.bz2
 License:	GPL
 Group:		Graphical desktop/FVWM based
-Requires:	fvwm
-BuildArch:  noarch
-BuildRoot:  %{_tmppath}/%{name}-%{version}
+Obsoletes:	fvwm2-icons
+Provides:	fvwm2-icons
+BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 The icons that used to be part of the fvwm source distribution are now
