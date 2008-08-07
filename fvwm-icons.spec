@@ -1,6 +1,6 @@
 %define	name	fvwm-icons
 %define	version	1.0
-%define	release	%mkrel 7
+%define	release	%mkrel 8
 
 Name:		%{name}
 Version:	%{version}
@@ -39,6 +39,8 @@ done
 # prevent conflicts
 rm -f %{buildroot}%{_iconsdir}/xemacs.xpm
 rm -f %{buildroot}%{_miconsdir}/xmag.xpm
+# From twm
+rm -f %{buildroot}%{_miconsdir}/twm.xpm
 
 %files
 %defattr(-,root,root)
