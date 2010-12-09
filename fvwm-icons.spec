@@ -1,6 +1,6 @@
 %define	name	fvwm-icons
 %define	version	1.0
-%define	release	%mkrel 9
+%define	release	%mkrel 10
 
 Name:		%{name}
 Version:	%{version}
