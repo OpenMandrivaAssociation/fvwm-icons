@@ -6,7 +6,7 @@ Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Summary:	FVWM icons
-URL: 		http://www.fvwm.org/
+URL: 		https://www.fvwm.org/
 Source:		http://www.fvwm.org/generated/icon_download/fvwm_icons.tar.bz2
 License:	GPL
 Group:		Graphical desktop/FVWM based
